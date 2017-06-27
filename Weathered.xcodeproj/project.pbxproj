@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		AD3BB3971EFE5FCA00B4C060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BB3961EFE5FCA00B4C060 /* AppDelegate.swift */; };
-		AD3BB3991EFE5FCA00B4C060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BB3981EFE5FCA00B4C060 /* ViewController.swift */; };
+		AD3BB3991EFE5FCA00B4C060 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BB3981EFE5FCA00B4C060 /* WeatherVC.swift */; };
 		AD3BB39B1EFE5FCA00B4C060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3BB39A1EFE5FCA00B4C060 /* Assets.xcassets */; };
 		AD3BB39E1EFE5FCA00B4C060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3BB39C1EFE5FCA00B4C060 /* Main.storyboard */; };
+		AD3BB3AA1F0285EE00B4C060 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3BB3A91F0285EE00B4C060 /* WeatherCell.xib */; };
+		AD3BB3AC1F0286AB00B4C060 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BB3AB1F0286AB00B4C060 /* WeatherCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD3BB3931EFE5FCA00B4C060 /* Weathered.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weathered.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3BB3961EFE5FCA00B4C060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD3BB3981EFE5FCA00B4C060 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD3BB3981EFE5FCA00B4C060 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		AD3BB39A1EFE5FCA00B4C060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD3BB39D1EFE5FCA00B4C060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD3BB39F1EFE5FCA00B4C060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3BB3A91F0285EE00B4C060 /* WeatherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
+		AD3BB3AB1F0286AB00B4C060 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +56,47 @@
 		AD3BB3951EFE5FCA00B4C060 /* Weathered */ = {
 			isa = PBXGroup;
 			children = (
+				AD3BB3A71F01C71C00B4C060 /* Controller */,
+				AD3BB3A51F01C6D900B4C060 /* Model */,
+				AD3BB3A61F01C6DF00B4C060 /* View */,
+				AD3BB3A81F0285BC00B4C060 /* xibs */,
 				AD3BB3961EFE5FCA00B4C060 /* AppDelegate.swift */,
-				AD3BB3981EFE5FCA00B4C060 /* ViewController.swift */,
 				AD3BB39A1EFE5FCA00B4C060 /* Assets.xcassets */,
 				AD3BB39C1EFE5FCA00B4C060 /* Main.storyboard */,
 				AD3BB39F1EFE5FCA00B4C060 /* Info.plist */,
 			);
 			path = Weathered;
+			sourceTree = "<group>";
+		};
+		AD3BB3A51F01C6D900B4C060 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AD3BB3A61F01C6DF00B4C060 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD3BB3AB1F0286AB00B4C060 /* WeatherCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AD3BB3A71F01C71C00B4C060 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD3BB3981EFE5FCA00B4C060 /* WeatherVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AD3BB3A81F0285BC00B4C060 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				AD3BB3A91F0285EE00B4C060 /* WeatherCell.xib */,
+			);
+			name = xibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +161,7 @@
 			files = (
 				AD3BB39B1EFE5FCA00B4C060 /* Assets.xcassets in Resources */,
 				AD3BB39E1EFE5FCA00B4C060 /* Main.storyboard in Resources */,
+				AD3BB3AA1F0285EE00B4C060 /* WeatherCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,8 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD3BB3991EFE5FCA00B4C060 /* ViewController.swift in Sources */,
+				AD3BB3991EFE5FCA00B4C060 /* WeatherVC.swift in Sources */,
 				AD3BB3971EFE5FCA00B4C060 /* AppDelegate.swift in Sources */,
+				AD3BB3AC1F0286AB00B4C060 /* WeatherCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,12 +288,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HW434T2Z4D;
 				INFOPLIST_FILE = Weathered/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.joemacdonald.Weathered;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -262,12 +304,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HW434T2Z4D;
 				INFOPLIST_FILE = Weathered/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.joemacdonald.Weathered;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
