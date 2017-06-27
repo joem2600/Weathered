@@ -13,6 +13,8 @@
 		AD3BB39E1EFE5FCA00B4C060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3BB39C1EFE5FCA00B4C060 /* Main.storyboard */; };
 		AD3BB3AA1F0285EE00B4C060 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3BB3A91F0285EE00B4C060 /* WeatherCell.xib */; };
 		AD3BB3AC1F0286AB00B4C060 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BB3AB1F0286AB00B4C060 /* WeatherCell.swift */; };
+		AD3BB3AF1F02B68500B4C060 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BB3AE1F02B68500B4C060 /* Constants.swift */; };
+		AD3BB3B11F02B99F00B4C060 /* APIKEYS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BB3B01F02B99F00B4C060 /* APIKEYS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AD3BB39F1EFE5FCA00B4C060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD3BB3A91F0285EE00B4C060 /* WeatherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
 		AD3BB3AB1F0286AB00B4C060 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		AD3BB3AE1F02B68500B4C060 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AD3BB3B01F02B99F00B4C060 /* APIKEYS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKEYS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		AD3BB3951EFE5FCA00B4C060 /* Weathered */ = {
 			isa = PBXGroup;
 			children = (
+				AD3BB3AD1F02B66400B4C060 /* utilities */,
 				AD3BB3A71F01C71C00B4C060 /* Controller */,
 				AD3BB3A51F01C6D900B4C060 /* Model */,
 				AD3BB3A61F01C6DF00B4C060 /* View */,
@@ -97,6 +102,15 @@
 				AD3BB3A91F0285EE00B4C060 /* WeatherCell.xib */,
 			);
 			name = xibs;
+			sourceTree = "<group>";
+		};
+		AD3BB3AD1F02B66400B4C060 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AD3BB3AE1F02B68500B4C060 /* Constants.swift */,
+				AD3BB3B01F02B99F00B4C060 /* APIKEYS.swift */,
+			);
+			name = utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +189,8 @@
 				AD3BB3991EFE5FCA00B4C060 /* WeatherVC.swift in Sources */,
 				AD3BB3971EFE5FCA00B4C060 /* AppDelegate.swift in Sources */,
 				AD3BB3AC1F0286AB00B4C060 /* WeatherCell.swift in Sources */,
+				AD3BB3B11F02B99F00B4C060 /* APIKEYS.swift in Sources */,
+				AD3BB3AF1F02B68500B4C060 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -78,7 +78,6 @@
                 <outlet property="weatherCellImage" destination="SlG-ch-stc" id="TK8-3A-PQJ"/>
             </connections>
         </collectionViewItem>
-        <collectionViewItem id="pZM-Se-7Nv"/>
     </objects>
     <resources>
         <image name="clear" width="107" height="107"/>

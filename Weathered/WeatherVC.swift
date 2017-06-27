@@ -20,8 +20,8 @@ class WeatherVC: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        collectionView.delegate = self
-        collectionView.dataSource = self
+        weatherCollection.delegate = self
+        weatherCollection.dataSource = self
 
         // loads first
         
