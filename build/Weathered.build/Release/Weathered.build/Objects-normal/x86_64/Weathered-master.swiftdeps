@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "1ac8faf392522b04b18ebeb79a1b0c1b"
+build_time: [551901157, 756130000]
+inputs:
+  "/Users/lain/code_macos/Weathered/Weathered/WeatherVC.swift": [9223372036854775807, 0]
+  "/Users/lain/code_macos/Weathered/Weathered/AppDelegate.swift": [9223372036854775807, 0]
+  "/Users/lain/code_macos/Weathered/Weathered/WeatherCell.swift": [9223372036854775807, 0]
+  "/Users/lain/code_macos/Weathered/Weathered/APIKEYS.swift": [9223372036854775807, 0]
+  "/Users/lain/code_macos/Weathered/Weathered/WeatherService.swift": [9223372036854775807, 0]
+  "/Users/lain/code_macos/Weathered/Weathered/Constants.swift": [9223372036854775807, 0]
