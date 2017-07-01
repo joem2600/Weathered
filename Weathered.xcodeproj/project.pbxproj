@@ -17,6 +17,7 @@
 		AD3BB3AF1F02B68500B4C060 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BB3AE1F02B68500B4C060 /* Constants.swift */; };
 		AD3BB3B11F02B99F00B4C060 /* APIKEYS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BB3B01F02B99F00B4C060 /* APIKEYS.swift */; };
 		AD3F7C401F02CAE7005E923E /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3F7C3F1F02CAE7005E923E /* WeatherService.swift */; };
+		ADF0E1FF1F0665BF003E0F9A /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF0E1FE1F0665BF003E0F9A /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		AD3BB3AE1F02B68500B4C060 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AD3BB3B01F02B99F00B4C060 /* APIKEYS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKEYS.swift; sourceTree = "<group>"; };
 		AD3F7C3F1F02CAE7005E923E /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		ADF0E1FE1F0665BF003E0F9A /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		AD3BB3A51F01C6D900B4C060 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ADF0E1FE1F0665BF003E0F9A /* CurrentWeather.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				AD3BB3991EFE5FCA00B4C060 /* WeatherVC.swift in Sources */,
 				AD3BB3971EFE5FCA00B4C060 /* AppDelegate.swift in Sources */,
 				AD3BB3AC1F0286AB00B4C060 /* WeatherCell.swift in Sources */,
+				ADF0E1FF1F0665BF003E0F9A /* CurrentWeather.swift in Sources */,
 				AD3BB3B11F02B99F00B4C060 /* APIKEYS.swift in Sources */,
 				AD3F7C401F02CAE7005E923E /* WeatherService.swift in Sources */,
 				AD3BB3AF1F02B68500B4C060 /* Constants.swift in Sources */,
